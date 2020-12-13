@@ -1,0 +1,217 @@
+
+
+	#wrapper
+		{
+			margin:0px auto;
+			height: 1380px;
+			width:1920px;
+			background-color:antiquewhite;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		*
+		{
+			text-decoration: none;
+		}
+	header
+		{
+			margin:0px auto;
+			height: 400px;
+			width:1920px;
+			background-image: url("images/banner.jpg");
+			text-align: center;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		
+	#logopg
+		{
+			
+			margin:0px auto;
+			display: inline-block;
+			
+		}
+		#menus
+		{
+			display: inline-block;
+			
+			
+		}
+		
+		#menus table,td,tr
+		{
+			border-collapse:collapse;
+			border-top: 1px solid rgba(255,255,255,0.50); 
+			border-bottom: 1px solid rgba(255,255,255,0.50);
+			box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#menus td:hover
+		{
+			cursor: pointer;
+		}
+		article
+		{
+			
+			float:left;
+		}
+		section
+		{
+			
+			float:left;
+		}
+		#menus td
+		{
+			padding:30px 80px;
+			font-family: "Amble";
+			font-weight: bold;
+			font-size:30px;
+			color: white;
+		}
+	
+		#boxes
+		{
+			width:600px;
+			height:400px;
+			margin:30px;
+			
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			
+		}
+		#tbboxes
+		{
+			width:300px;
+			height:830px;
+			margin:30px;
+			
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			
+		}
+		#bthumb
+		{
+			width:300px;
+			height:400px;
+			z-index: 10;
+			background-image: url("images/finest of ingredients.jpg");
+			float: right;background-size: cover;
+		}
+		#tcontent
+		{
+			width:300px;
+			height:430px;
+			float: left	;
+				background-color:#e1e1e1;
+		}
+		#tthumb
+		{
+			width:300px;
+			height:400px;
+			z-index: 10;
+			background-image: url("images/Passion and service oriented.jpg");background-size: cover;
+			float: right;
+		}
+		#bcontent
+		{
+			width:300px;
+			height:430px;
+			float: left	;
+				background-color:#e1e1e1;
+		}
+		#thumb
+		{
+			width:300px;
+			height:400px;
+			z-index: 10;
+			background-image: url("images/about fresh off the boat.jpg");background-size: cover;
+			float: right;
+		}
+		#content
+		{
+			width:300px;
+			height:400px;
+			float: left	;
+				background-color:#e1e1e1;
+		}
+		#mthumb
+		{
+			width:300px;
+			height:400px;
+			z-index: 10;
+			background-image:url("images/unique experience.jpg");background-size: cover;
+			float: left	;
+		}
+		#mcontent
+		{
+			width:300px;
+			height:400px;
+			float: right;
+			background-color:#e1e1e1;
+		}
+	aside
+		{ 
+			float: right;
+			margin:30px 10px ;
+			width:519px;
+			height:811px;
+			background-image: url("images/reserve your seats.jpg");
+			background-size:cover;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#bcontent,#content,#tcontent,#mcontent
+		{
+			color:white;
+			background-color:lightblue;
+			font-family:"Amble";
+			font-size:27px;
+			font-weight:bold;
+			text-shadow: 2px 2px 4px grey;
+			padding:0px 5px;
+			width:290px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		h1
+		{
+			color:slategrey;
+			font-size: 42px;
+			padding:5px;
+			font-family: "antonio";
+			font-weight: bold;
+			margin-bottom: 10%;
+		}
+		#seats
+		{
+			text-align:center; 
+			margin:125px 50px;
+			background-color: aliceblue;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		input,select
+		{
+			width:90%;
+			color: grey;
+			font-family: "Amble Lt";
+			font-size: 30px;
+			height: 70px;
+			margin:20px 20px;
+			
+		}
+		#butto
+		{
+			width:50%;
+			color: grey;
+			font-family: "Amble";
+			font-size: 20px;
+			font-weight:bold;
+			background-color:#fc8c23;
+			color: white;
+			height: 50px;
+			margin:20px 20px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+	
+		#logopg:hover
+	{
+	
+		transform:scale(0.95);
+		
+		
+		
+	}
+	
